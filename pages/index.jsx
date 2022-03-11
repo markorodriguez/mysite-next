@@ -25,8 +25,8 @@ export default function Index() {
             url: 'https://nervous-euclid-2bbf74.netlify.app/'
         },
         {
-            title: 'Frontend Mentor - Challenge ',
-            url: 'https://flamboyant-curie-d006d4.netlify.app/'
+            title: 'Geo Guess Quizz ',
+            url: 'https://guess-country-eight.vercel.app/'
         },
         {
             title: 'NextJS Countries API',
@@ -106,7 +106,7 @@ export default function Index() {
                                 <a
                                     target="_blank"
                                     rel="noreferrer"
-                                    href="https://drive.google.com/file/d/1GD6FVwx32gs4-jxtX7fh4RBia8PYPCko/view"
+                                    href="https://drive.google.com/file/d/1FozUzT6AfEdQk4A8EQvkCZ67D2y8XdT2/view"
                                 >
                                     Download my CV
                                 </a>
