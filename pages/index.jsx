@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
@@ -41,12 +42,12 @@ export default function Index() {
         link: 'mailto:marko.rodriguez@hotmail.es'
     }, {
         img: "https://img.icons8.com/small/50/000000/github.png",
-        detail: 'https://github.com/markorodriguez',
+        detail: 'GitHub',
         link: 'https://github.com/markorodriguez'
     },
     {
         img: "https://img.icons8.com/small/50/000000/linkedin.png",
-        detail: 'https://www.linkedin.com/in/marko-rodriguez/',
+        detail: 'LinkedIn ',
         link: 'https://www.linkedin.com/in/marko-rodriguez/'
     },
     ]
@@ -99,9 +100,9 @@ export default function Index() {
                                 About me.
                             </h2>
                             <p className="my-8 text-justify md:text-right py-4 text-lg leading-loose">
-                                Even though I&apos;m into frontend development I have experience with backend as well. <br />
+                                I am a computer engineering graduated student willing to start a career in the field of programming. <br />
                                 My main stack is <strong className="text-mycyan">MERN</strong>.
-                                Moreover, I&apos;m capable of learning new technologies if the project requires them. <br />
+                                However, I&apos;m capable of learning new technologies or using the other ones I also known if the project requires them. <br />
                             </p>
                             <button className="shadow-lg text-mywhite hover:text-mycyan  font-medium hover:animate-none transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
                                 <a
