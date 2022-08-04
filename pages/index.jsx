@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
@@ -35,7 +36,7 @@ export default function Index() {
     ]
 
     const arrayContact = [{
-        img: 'https://img.icons8.com/material/50/000000/mail.png',
+        img: '/img/contact/mail-142.svg',
         detail: 'marko.rodriguez@hotmail.es',
         link: 'mailto:marko.rodriguez@hotmail.es'
     }, {
@@ -74,7 +75,7 @@ export default function Index() {
                                 Hope you like what you see here 🤠.
                             </p>
 
-                            <button className="animate-bounce font-medium hover:animate-none shadow-xl transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
+                            <button className="font-medium hover:animate-none text-mywhite hover:text-mycyan shadow-lg transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
                                 <a href="#projects"> See Projects</a>
                             </button>
                         </div>
@@ -102,7 +103,7 @@ export default function Index() {
                                 My main stack is <strong className="text-mycyan">MERN</strong>.
                                 Moreover, I&apos;m capable of learning new technologies if the project requires them. <br />
                             </p>
-                            <button className="shadow-xl font-medium animate-bounce hover:animate-none transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
+                            <button className="shadow-lg text-mywhite hover:text-mycyan  font-medium hover:animate-none transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
                                 <a
                                     target="_blank"
                                     rel="noreferrer"
