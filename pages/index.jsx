@@ -108,7 +108,7 @@ export default function Index() {
                                 <a
                                     target="_blank"
                                     rel="noreferrer"
-                                    href="https://drive.google.com/file/d/1FozUzT6AfEdQk4A8EQvkCZ67D2y8XdT2/view"
+                                    href="https://drive.google.com/file/d/1XnqhYhgNViqJS1cXqnL-u8bYBuq0BjcV/view"
                                 >
                                     Download my CV
                                 </a>
