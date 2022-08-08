@@ -20,7 +20,7 @@ export default function Index() {
         },
         {
             title: 'My weather app',
-            url: 'https://nervous-mestorf-f62d56.netlify.app/'
+            url: 'https://weather-app-five-self.vercel.app/'
         },
         {
             title: 'My Rock Paper Scissors',
