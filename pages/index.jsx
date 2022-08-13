@@ -104,15 +104,31 @@ export default function Index() {
                                 My main stack is <strong className="text-mycyan">MERN</strong>.
                                 However, I&apos;m capable of learning new technologies or using the other ones I also known if the project requires them. <br />
                             </p>
-                            <button className="shadow-lg text-mywhite hover:text-mycyan  font-medium hover:animate-none transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
+                          
+                            <button className="shadow-lg my-2 text-mywhite hover:text-mycyan  font-medium hover:animate-none transition-all px-4 py-2 border-2 bg-mycyan border-mycyan rounded-3xl hover:bg-mywhite hover:cursor-pointer">
                                 <a
                                     target="_blank"
                                     rel="noreferrer"
-                                    href="https://drive.google.com/file/d/1XnqhYhgNViqJS1cXqnL-u8bYBuq0BjcV/view"
+                                    href="/api/resume"
                                 >
-                                    Download my CV
+                                    Resume - English 
                                 </a>
                             </button>
+
+                            <br/>
+
+                            <button className="shadow-lg my-2 hover:text-mywhite text-mycyan  font-medium hover:animate-none transition-all px-4 py-2 border-2 hover:bg-mycyan border-mycyan rounded-3xl bg-mywhite hover:cursor-pointer">
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href="/api/cv"
+                                >
+                                    CV - Spanish 
+                                </a>
+                            </button>
+                           
+                            
+
                         </div>
                     </div>
                 </div>
